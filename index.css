@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 30px;
+}
+
+body .navbar {
+  margin-top: 50px;
+}
+
+body .navbar img a {
+  border: 1px solid red;
+  margin-left: 30px;
+}
+/*# sourceMappingURL=index.css.map */

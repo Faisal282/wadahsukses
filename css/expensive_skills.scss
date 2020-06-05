@@ -1,0 +1,596 @@
+$scotch : "Scotch TextFraction";
+$scotchBlack: "Scotch TextBlack";
+$proxima : "Proxima Nova";
+$roboto : "Roboto";
+$debug : 1px solid red;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+$breakpoint-webhd: 1366px;
+
+@media (min-width: $breakpoint-webhd) {
+    #navTop nav {
+        margin: 0 130px;
+        // background: transparent;
+        font-family: $roboto;
+        transition: .4s;
+
+
+        .nav-link {
+            color: black !important;
+            transition: .4s;
+        }
+
+        a img {
+            width: 51.93px;
+            height: 46px;
+            transition: .4s;
+        }
+
+        button {
+            width: 124px;
+            height: 40px;
+            border-radius: 20px;
+            background: #000;
+            color: white;
+            transition: .4s;
+        }
+    }
+
+    
+    .stickyNav {
+        width: 1059px;
+        height: 72px;
+        top: 0;
+        bottom: 130px;
+        position: fixed;
+        // background: #FFB8B8 !important;
+        transition: all ease-in-out;
+        margin: 0 130px;
+        font-family: $roboto;
+        z-index: 3;
+        transition: .4s;
+        box-shadow: 0 5px 10px -2px rgba(0,0,0,.4);
+    }
+
+    .stickyButton{
+        right: 24vh; position: fixed;
+        transition: .4s;
+    }
+
+    header {
+        background-image: url("../images/PNG/skills/Component\ 9\ –\ 1@2x.png");
+        background-size: cover;
+        width: 1106px !important;
+        height: 462px !important;
+        margin: 78px 130px;
+
+        #text-header {
+            padding-left: 43px;
+            padding-top: 60px !important;
+        }
+
+        p {
+            font-family: $proxima;
+            font-weight: normal;
+            font-size: 20px;
+            text-align: left;
+            color: #fff;
+            width: 471px;
+            height: 96px;
+            margin-top: 21px;
+        }
+
+        h1 {
+            font-family: $scotch;
+            font-weight: bold;
+            font-size: 45px;
+            text-align: left;
+            color: #fff;
+        }
+
+        button, #getstarted {
+            width: 194px;
+            height: 60px;
+            background: transparent;
+            border: 3px solid #fff;
+            border-radius: 1vh;
+            margin-top: 41px;
+            color: white;
+        }
+
+
+
+        // #getstarted:active, #getstarted:focus{
+        //     border: none;
+        //     color: none;
+        // }
+    }
+
+    #service {
+        margin-top: 60px;
+        margin-left: 130px;
+
+        h1#title {
+            font-family: $proxima;
+            font-weight: bold;
+            font-size: 50px;
+            text-align: left;
+            color: #000;
+        }
+
+        p#desc {
+            margin-top: 0 !important;
+        }
+
+        .row {
+            margin-right: 130px;
+        }
+
+        .kotak {
+            width: 352px;
+            height: 352px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
+            transition: ease-in-out .2s;
+
+            img {
+                width: 125px;
+                height: 125px;
+                margin-left: 114px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-family: $proxima;
+                font-weight: bold;
+                font-size: 30px;
+                text-align: left;
+                color: #000;
+                margin: 0 25px;
+            }
+
+            // h1:nth-of-type(1n){
+            //     font-family: $proxima;
+            //     font-weight: bold;
+            //     font-size: 30px;
+            //     text-align: left;
+            //     color: #000;
+            //     margin: 0 25px;
+            // }
+            // h1:nth-of-type(2n){
+            //     font-family: $proxima;
+            //     font-weight: bold;
+            //     font-size: 30px;
+            //     text-align: left;
+            //     color: #000;
+            //     margin: 0 40px;
+            // }
+            // h1:nth-last-of-type(){
+            //     font-family: $proxima;
+            //     font-weight: bold;
+            //     font-size: 30px;
+            //     text-align: left;
+            //     color: #000;
+            //     margin: 0 56px !important;
+            // }
+            p {
+                font-family: $proxima;
+                font-weight: normal;
+                font-size: 20px;
+                text-align: center;
+                color: #000;
+                margin: 0 25px;
+            }
+        }
+
+        .kotak:hover {
+            width: 352px;
+            height: 352px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+            transition: ease-in-out .2s;
+            cursor: pointer;
+        }
+    }
+
+    #backgroundUnion {
+        background-image: url("../images/PNG/Union4@2x.png");
+        background-size: cover;
+        width: 1353px;
+        height: 450px;
+        margin-left: -20px;
+        position: absolute;
+        margin-top: 193px;
+    }
+
+    #dotsBackground {
+        background-image: url("../images/PNG/Asset\ 13_1@2x@2x.png");
+        background-size: cover;
+        margin-left: 1183px;
+        margin-top: 128px;
+        width: 107px;
+        height: 130px;
+        position: absolute;
+        z-index: 2;
+    }
+
+    #howWorks {
+        margin-top: 60px;
+        margin-left: 130px;
+
+        h1#title {
+            font-family: $proxima;
+            font-weight: bold;
+            font-size: 50px;
+            text-align: left;
+            color: #000;
+        }
+
+        p#desc {
+            margin-top: 0 !important;
+        }
+
+        .row {
+            margin-right: 130px;
+        }
+
+        .kotak {
+            width: 352px;
+            height: 352px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 49px;
+            padding-bottom: 44px;
+            transition: ease-in-out .2s;
+
+            img {
+                width: 80px;
+                height: 80px;
+                margin-left: 40px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                margin: 20px 0 0 40px;
+                font-family: $proxima;
+                font-weight: bold;
+                font-size: 30px;
+                text-align: left;
+                color: #000;
+
+            }
+
+            p {
+                font-family: $proxima;
+                font-weight: normal;
+                font-size: 20px;
+                text-align: left;
+                color: #000;
+                margin: 10px 0 0 40px;
+            }
+        }
+
+        .kotak:hover {
+            width: 352px;
+            height: 352px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+            transition: ease-in-out .2s;
+            cursor: pointer;
+        }
+    }
+
+    #mobile, #website, #ui {
+        margin-top: 60px;
+        margin-left: 130px;
+
+        h1#title {
+            font-family: $proxima;
+            font-weight: bold;
+            font-size: 50px;
+            text-align: left;
+            color: #000;
+            // text-align: center;
+            // padding-left: 384px;
+        }
+
+        p#desc {
+            margin-top: 0 !important;
+        }
+
+        .row {
+            margin-right: 130px;
+        }
+
+        .kotak {
+            width: 352px;
+            height: 352px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 49px;
+            padding-bottom: 44px;
+            transition: ease-in-out .2s;
+
+            .row {
+                width: 352px;
+                margin-left: 0;
+            }
+
+            img#portofolio {
+                width: 352px;
+                height: 260px;
+                margin-bottom: 20px;
+                border-radius: 10px;
+            }
+
+            img#profile {
+                width: 50px;
+                height: 50px;
+                margin-left: 10px;
+                border-radius: 10vh;
+            }
+
+            img#profile:hover {
+                border-radius: 0px !important;
+            }
+
+            h1 {
+                font-family: $proxima;
+                font-weight: bold;
+                font-size: 25px;
+                text-align: left;
+                color: #000;
+                position: relative;
+            }
+
+            p {
+                font-family: $proxima;
+                font-weight: normal;
+                font-size: 15px;
+                text-align: left;
+                color: #000;
+                margin-top: 2px !important;
+                margin-bottom: 21px !important;
+            }
+        }
+
+        .kotak:hover {
+            width: 352px;
+            height: 352px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+            transition: ease-in-out .2s;
+            cursor: pointer;
+        }
+    }
+
+    #why {
+        margin-top: 60px;
+        margin-left: 130px;
+        width: 1106px;
+        height: 520px;
+        border-radius: 30px;
+        background: #ffb8b8;
+
+        #wrapkonten {
+            width: 1106px;
+            height: 520px;
+            margin-left: 0;
+        }
+
+        #contentLeft {
+            height: 520px !important;
+            padding-top: 120px !important;
+            padding-bottom: 198px !important;
+            padding-left: 40px !important;
+
+            h1 {
+                font-family: $scotchBlack;
+                font-weight: normal;
+                font-size: 45px;
+                text-align: left;
+                color: #fff;
+            }
+
+            p {
+                font-family: $proxima;
+                font-weight: normal;
+                font-size: 30px;
+                text-align: left;
+                color: #fff;
+            }
+        }
+
+        #contentRight {
+            // border: $debug;
+            height: 520px !important;
+            padding-top: 60px !important;
+            padding-right: 40px;
+
+            .col-4 {
+                width: 168px;
+                height: 130px;
+
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    margin-top: 40px;
+                    margin-left: 64px;
+                    margin-right: 64px;
+                }
+
+                h1 {
+                    font-family: $proxima;
+                    font-weight: bold;
+                    font-size: 15px;
+                    text-align: center;
+                    color: #fff;
+                    width: 100%;
+                    margin-top: 8px;
+                }
+
+                p {
+                    font-family: $proxima;
+                    font-weight: normal;
+                    font-size: 10px;
+                    text-align: center;
+                    color: #fff;
+                    margin-top: -5px !important;
+                    width: 100%;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+    #partner {
+        margin-top: 60px;
+        text-align: center;
+
+        h1 {
+            font-family: $proxima;
+            font-weight: bold;
+            font-size: 50px;
+            text-align: center;
+            color: #000;
+        }
+
+        .row {
+            margin-top: 60px;
+        }
+    }
+
+    footer {
+        background: #04b2d9;
+        width: 100%;
+        height: 379px;
+        margin-left: 0 !important;
+        margin-top: 142px;
+        overflow: hidden;
+
+        img#user {
+            width: 211px;
+            height: 50px;
+            margin-top: 6.267vw;
+            margin-left: 578px;
+        }
+
+        p#pause {
+            font-family: "Air America";
+            font-weight: normal;
+            font-size: 975px;
+            color: #f7a4a4;
+            opacity: 0.61;
+            margin-top: -370px;
+            margin-left: 227px;
+            z-index: 0;
+            height: 100vh;
+        }
+
+        p#quotes {
+            margin-top: -39vh;
+            font-family: "Merriweather";
+            font-weight: normal;
+            font-style: italic;
+            font-size: 40px;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+
+        button {
+            width: 194px;
+            height: 60px;
+            margin-left: 578px;
+            background: transparent;
+            border: 3px solid #fff;
+            border-radius: 1vh;
+            color: #fff;
+            margin-top: 60px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        div#garis {
+            width: 1106px;
+            height: 0px;
+            background: transparent;
+            border: 2px solid #fff;
+            opacity: 0.6;
+            margin-top: 60px;
+            margin-left: 130px;
+            border-radius: 3vh;
+        }
+
+        .row {
+            margin-left: 130px;
+            margin-right: 130px;
+
+            img {
+                width: 51.93px;
+                height: 46px;
+                margin-top: 60px;
+            }
+
+            span {
+                font-family: $proxima;
+                font-weight: bold;
+                font-size: 25px;
+                text-align: left;
+                color: #fff;
+                position: absolute;
+                // display: inline-block;
+                margin-top: 68px !important;
+                margin-left: 20px;
+            }
+
+            p {
+                font-family: $proxima;
+                font-weight: normal;
+                font-size: 15px;
+                text-align: left;
+                color: #fff;
+            }
+
+            .mainPoint {
+                font-family: $proxima;
+                font-weight: bold;
+                font-size: 25px;
+                text-align: left;
+                color: #fff;
+            }
+
+            .list-unstyled li a {
+                font-family: $proxima;
+                font-weight: normal;
+                font-size: 15px;
+                text-align: left;
+                color: #fff;
+            }
+        }
+
+        #copy {
+            font-family: $proxima;
+            font-weight: normal;
+            font-size: 15px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}

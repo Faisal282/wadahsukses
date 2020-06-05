@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/sign_in.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-6" id="kiri">
+            <div class="row">
+                <div class="col-2"><img src="./images/PNG/Otaklogo@2x@2x.png" alt="Logo" id="logo"></div>
+                <div class="col-10">
+                    <h1>Wadahsukses</h1>
+                </div>
+            </div>
+            <img src="./images/PNG/Otaklogo@2x@2x.png" alt="Otaklogo" id="otak">
+        </div>
+        <div class="col-6" id="kanan">
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="account">Already have an account?</h1>
+                </div>
+                <div class="col-12">
+                    <h1 id="sign">Sign in here</h1>
+                </div>
+                <div class="col-10">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+                        </div>
+                        <div class="form-group form-check ml-1">
+                            <input type="checkbox" class="form-check-input" id="remember" name="remember">
+                            <label class="form-check-label" for="remember" id="labelremember">Stay Logged In</label>
+                        </div>
+                        <button type="submit" class="btn" id="signin">Sign In</button>
+                        <a href="#" id="forgot">
+                            <small id="emailHelp" class="form-text link forgot">Forgot Password</small>
+                        </a>
+                    </form>
+                </div>
+                <div class="col-12">
+                    <div id="separator">Or</div>
+                </div>
+                <div class="col-12">
+                    <button type="button" class="btn" id="google">
+                        <img src="./images/PNG/Component 7 – 1@2x.png" alt="">
+                        Sign In With Google
+                    </button>
+                </div>
+                <div class="col-12">
+                    <button type="button" class="btn" id="facebook">
+                        <img src="./images/PNG/Component 8 – 1@2x.png" alt="">
+                        Sign In With Facebook
+                    </button>
+                </div>
+                <div class="col-9 text-center" id="dont">
+                    Don't have an account? <span><a href="./sign_up.html" id="sign">Sign Up</a></span>
+                </div>
+                <div class="col-9 text-center">
+                    <a href="#" id="privacy">
+                        <small id="emailHelp" class="form-text link forgot">Privacy Policy</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

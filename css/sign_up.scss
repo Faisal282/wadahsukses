@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$breakpoint-webhd: 1366px;
+
+@media screen and (max-width: $breakpoint-webhd) {
+
+    body {
+        max-height: 100vh !important;
+        max-width: 100vw !important;
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+
+        #logo {
+            width: 51.93px;
+            height: 46px;
+        }
+
+        #kiri {
+            background: #fc638a;
+            height: 100vh;
+            width: 100%;
+
+            #otak {
+                width: 983.93px;
+                height: 872px;
+                margin-left: 48px;
+                margin-top: 150px;
+                z-index: -1;
+            }
+
+
+            .row {
+                margin-top: 36px !important;
+                margin-left: 60px;
+            }
+
+            h1 {
+                font-family: "Proxima Nova";
+                font-weight: bold;
+                font-size: 30px;
+                text-align: left;
+                color: #fff;
+                padding: 0 5px !important;
+            }
+        }
+
+        #kanan {
+
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            select.form-control {
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid #707070;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 0;
+                width: 440px !important;
+            }
+
+            #labelremember {
+                font-family: "Proxima Nova";
+                font-weight: normal;
+                font-size: 16px;
+                text-align: left;
+                color: #000;
+                margin-left: 17px;
+                padding-top: .5vh;
+            }
+
+            input[type="text"]:focus,
+            input[type="email"]:focus,
+            input[type="password"]:focus,
+            select.form-control:focus {
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+
+            height: 100vh !important;
+            width: 100%;
+            background: #fff;
+
+            #otak {
+                width: 983.93px;
+                height: 872px;
+                margin-left: 48px;
+                margin-top: 150px;
+                z-index: -1;
+            }
+
+
+            .row {
+                margin-top: 47px;
+                margin-left: 60px;
+            }
+
+            h1#account {
+                font-family: "Proxima Nova";
+                font-weight: normal;
+                font-size: 30px;
+                text-align: left;
+                color: #000;
+                opacity: 0.5;
+
+            }
+
+            h1#sign {
+                font-family: "Proxima Nova";
+                font-weight: bold;
+                font-size: 35px;
+                text-align: left;
+                color: #000;
+                margin-top: -1vh;
+            }
+
+            form {
+                margin-top: 10px;
+
+                // .form-group {
+                //     margin-top: 30px;
+                // }
+
+
+                #remember {
+                    width: 20px;
+                    height: 20px;
+                    background: #fff;
+                    border: 1px solid #707070;
+                }
+
+                button#signin {
+                    width: 440px;
+                    height: 48px;
+                    border-radius: 5px;
+                    background: #fc638a;
+                    margin-top: 10px;
+                    font-family: "Proxima Nova";
+                    font-weight: normal;
+                    font-size: 20px;
+                    text-align: center;
+                    color: #fff;
+                }
+
+                .link {
+                    font-family: "Proxima Nova";
+                    font-weight: normal;
+                    text-align: left;
+                    color: #2c96d4;
+                }
+
+                .forgot {
+                    font-size: 15px;
+                    margin-top: 15px;
+                }
+            }
+
+            #separator {
+                display: flex;
+                align-items: center;
+                text-align: center;
+                width: 440px;
+                height: 24px;
+                color: #707070;
+                margin-top: 20px;
+            }
+
+            #separator::before,
+            #separator::after {
+                content: '';
+                flex: 1;
+                border-bottom: 1px solid #707070;
+            }
+
+            #separator::before {
+                margin-right: 1em;
+            }
+
+            #separator::after {
+                margin-left: 1em;
+            }
+
+            button#google {
+                width: 440px;
+                height: 48px;
+                width: 440px;
+                height: 48px;
+                margin-top: 20px;
+                font-family: "Proxima Nova";
+                font-weight: normal;
+                font-size: 20px;
+                text-align: center;
+                color: #fff;
+                border-radius: 5px;
+                background: #2c88d9;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    left: 5vh;
+                }
+            }
+
+            button#facebook {
+                width: 440px;
+                height: 48px;
+                width: 440px;
+                height: 48px;
+                margin-top: 10px;
+                font-family: "Proxima Nova";
+                font-weight: normal;
+                font-size: 20px;
+                text-align: center;
+                color: #fff;
+                border-radius: 5px;
+                background: #2c88d9;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    left: 5vh;
+                }
+            }
+
+            #dont {
+                margin-top: 15px;
+                font-family: "Proxima Nova";
+                font-weight: normal;
+                font-size: 20px;
+                text-align: left;
+                color: #8D8D8D;
+            }
+
+            #sign{
+                color: #2C96D4;
+            }
+
+            #privacy {
+                font-family: "Proxima Nova";
+                font-weight: normal;
+                font-size: 15px;
+                color: #2c96d4;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 1367px) {
+
+    body {
+        max-height: 100vh !important;
+        max-width: 100vw !important;
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+
+        #logo {
+            width: 51.93px;
+            height: 46px;
+        }
+
+        #kiri {
+            background: #fc638a;
+            height: 100vh;
+            width: 100%;
+
+            #otak {
+                width: 983.93px;
+                height: 872px;
+                margin-left: 48px;
+                margin-top: 150px;
+                z-index: -1;
+            }
+
+
+            .row {
+                margin-top: 36px !important;
+                margin-left: 60px;
+            }
+
+            h1 {
+                font-family: "Proxima Nova";
+                font-weight: bold;
+                font-size: 30px;
+                text-align: left;
+                color: #fff;
+                padding: 0 5px !important;
+            }
+        }
+
+        #kanan {
+
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            select.form-control {
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid #707070;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 0;
+                width: 440px !important;
+            }
+
+            #labelremember {
+                font-family: "Proxima Nova";
+                font-weight: normal;
+                font-size: 16px;
+                text-align: left;
+                color: #000;
+                margin-left: 17px;
+                padding-top: .5vh;
+            }
+
+            input[type="text"]:focus,
+            input[type="email"]:focus,
+            input[type="password"]:focus,
+            select.form-control:focus {
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+
+            height: 100vh !important;
+            width: 100%;
+            background: #fff;
+
+            #otak {
+                width: 983.93px;
+                height: 872px;
+                margin-left: 48px;
+                margin-top: 150px;
+                z-index: -1;
+            }
+
+
+            .row {
+                margin-top: 69px !important;
+                margin-left: 60px;
+            }
+
+            h1#account {
+                font-family: "Proxima Nova";
+                font-weight: normal;
+                font-size: 30px;
+                text-align: left;
+                color: #000;
+                opacity: 0.5;
+
+            }
+
+            h1#sign {
+                font-family: "Proxima Nova";
+                font-weight: bold;
+                font-size: 35px;
+                text-align: left;
+                color: #000;
+            }
+
+            form {
+                margin-top: 10px;
+
+                .form-group {
+                    margin-top: 30px !important;
+                }
+
+                #remember {
+                    width: 20px;
+                    height: 20px;
+                    background: #fff;
+                    border: 1px solid #707070;
+                }
+
+                button#signin {
+                    width: 440px;
+                    height: 48px;
+                    border-radius: 5px;
+                    background: #fc638a;
+                    margin-top: 40px;
+                    font-family: "Proxima Nova";
+                    font-weight: normal;
+                    font-size: 20px;
+                    text-align: center;
+                    color: #fff;
+                }
+
+                .link {
+                    font-family: "Proxima Nova";
+                    font-weight: normal;
+                    text-align: left;
+                    color: #2c96d4;
+                }
+
+                .forgot {
+                    font-size: 15px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
